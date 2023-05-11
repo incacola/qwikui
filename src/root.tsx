@@ -1,6 +1,7 @@
 import { component$ } from '@builder.io/qwik';
 import { QwikCityProvider, RouterOutlet, ServiceWorkerRegister } from '@builder.io/qwik-city';
 import { RouterHead } from './components/router-head/router-head';
+import { cn } from '~/lib/utils';
 
 import './global.css';
 
@@ -19,7 +20,11 @@ export default component$(() => {
         <link rel="manifest" href="/manifest.json" />
         <RouterHead />
       </head>
-      <body lang="en">
+      <body lang="en" 
+        class={cn(
+          "min-h-screen bg-background font-sans antialiased",
+          
+        )}>
         <RouterOutlet />
         <ServiceWorkerRegister />
       </body>
