@@ -1613,10 +1613,10 @@ lru-cache@^6.0.0:
   dependencies:
     yallist "^4.0.0"
 
-lucide-react@^0.216.0:
+lucide@^0.216.0:
   version "0.216.0"
-  resolved "https://registry.yarnpkg.com/lucide-react/-/lucide-react-0.216.0.tgz#064595cda989464f625a03a4745d7b77d3dbdc34"
-  integrity sha512-PGWXs6JXI/08rhfkmj/joji0MAKDCcms44j0LYILO4J36AWqKhgjjaZ6WECRSyZ9TQe5gOrAR0g38O8cKrQngw==
+  resolved "https://registry.yarnpkg.com/lucide/-/lucide-0.216.0.tgz#6e16055a8d99ddbd3838603a37a591b77982a06a"
+  integrity sha512-wPPCVe+Jiy4nWYz+0jP1qza7+4p4WHsdsnEHn6GnrL6HASDSxauiidTk52wWWkESpCVUulwgffUbagIeqJ3mwg==
 
 markdown-extensions@^1.0.0:
   version "1.1.1"
