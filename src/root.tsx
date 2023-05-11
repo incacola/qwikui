@@ -22,8 +22,7 @@ export default component$(() => {
       </head>
       <body lang="en" 
         class={cn(
-          "min-h-screen bg-background font-sans antialiased",
-          
+          "min-h-screen bg-background font-sans antialiased dark",
         )}>
         <RouterOutlet />
         <ServiceWorkerRegister />
