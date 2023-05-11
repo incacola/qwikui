@@ -1,12 +1,22 @@
-# Qwik City App ⚡️
+# Qwik City App UI ⚡️
 
 - [Qwik Docs](https://qwik.builder.io/)
 - [Discord](https://qwik.builder.io/chat)
 - [Qwik GitHub](https://github.com/BuilderIO/qwik)
 - [@QwikDev](https://twitter.com/QwikDev)
 - [Vite](https://vitejs.dev/)
+- [Schadcn/ui](http://ui.shadcn.com/docs)
 
 ---
+# Based on shadcn/ui
+
+Accessible and customizable components that you can copy and paste into your apps. Free. Open Source. **Use this to build your own component library**.
+
+![hero](apps/www/public/og.jpg)
+
+## Documentation
+
+Visit http://ui.shadcn.com/docs to view the documentation.
 
 ## Project Structure
 
@@ -63,3 +73,7 @@ The production build will generate client and server modules by running both cli
 ```shell
 npm run build # or `yarn build`
 ```
+
+## License
+
+Licensed under the [MIT license](https://github.com/shadcn/ui/blob/main/LICENSE.md).
